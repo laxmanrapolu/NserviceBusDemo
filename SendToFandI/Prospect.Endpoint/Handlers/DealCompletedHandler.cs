@@ -12,7 +12,7 @@ namespace Prospect.Endpoint.Handlers
     {
         public void Handle(DealCompleted message)
         {
-            Console.WriteLine("Prospect Endpoint : Received Deal Number : {0}", message.DealNumber);
+            Console.WriteLine("Prospect SubScribe : Received Deal Number : {0}", message.DealNumber);
             Console.WriteLine("");
         }
     }

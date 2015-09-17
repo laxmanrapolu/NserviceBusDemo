@@ -29,6 +29,8 @@ namespace SendToFandI.Endpoint.Handlers
             };
            
             Bus.Send(purchaseDeal);
+            Console.WriteLine("SendToFandI Endpoint : Updated Standard Terms and sent deal to Dis");
+            Console.WriteLine("");
         }
     }
 }

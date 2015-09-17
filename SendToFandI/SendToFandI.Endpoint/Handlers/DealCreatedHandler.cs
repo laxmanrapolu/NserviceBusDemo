@@ -19,7 +19,7 @@ namespace SendToFandI.Endpoint.Handlers
         public void Handle(DealCreated message)
         {
             
-            Console.WriteLine("SendToFandI Endpoint : Received Deal from DMS and Deal Number is: {0}", message.DealNumber);
+            Console.WriteLine("SendToFandI Endpoint : Received Deal from Dis and Deal Number is: {0}", message.DealNumber);
             Console.WriteLine("");
 
 
