@@ -55,6 +55,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EndpointConfig.cs" />
+    <Compile Include="Handlers\AuthenticationHandler.cs" />
     <Compile Include="Handlers\DealCreatedHandler.cs" />
     <Compile Include="Handlers\SendToFandIHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

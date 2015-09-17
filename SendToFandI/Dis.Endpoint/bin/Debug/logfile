@@ -743,3 +743,308 @@ RabbitMqTransport [1.1.3] - Enabled
 2015-09-16 20:59:22,487 [1] INFO  NServiceBus.Satellites.SatelliteLauncher [(null)] <(null)> - Started 1/3 NServiceBus.Timeout.Hosting.Windows.TimeoutMessageProcessor, NServiceBus.Core, Version=4.6.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
 2015-09-16 20:59:22,511 [8] INFO  NServiceBus.Satellites.SatelliteLauncher [(null)] <(null)> - Started 2/3 NServiceBus.Timeout.Hosting.Windows.TimeoutDispatcherProcessor, NServiceBus.Core, Version=4.6.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
 2015-09-16 20:59:26,209 [16] INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager [(null)] <(null)> - Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-09-16 21:24:55,354 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.IWantToRunBeforeConfiguration completed in 0.13 s
+2015-09-16 21:24:55,480 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.Config.INeedInitialization completed in 0.00 s
+2015-09-16 21:24:55,867 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Expires on 12/31/9999 00:00:00
+2015-09-16 21:24:55,939 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.INeedInitialization completed in 0.45 s
+2015-09-16 21:24:57,594 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.IWantToRunBeforeConfigurationIsFinalized completed in 1.65 s
+2015-09-16 21:24:57,676 [1] INFO  NServiceBus.Features.Sagas [(null)] <(null)> - The saga feature was enabled but no saga implementations could be found. No need to enable the configured saga persister
+2015-09-16 21:24:57,808 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Features: 
+Audit [4.6.1] - Enabled
+AutoSubscribe [4.6.1] - Enabled
+BinarySerialization [4.6.1] - Controlled by category Serializers
+BsonSerialization [4.6.1] - Controlled by category Serializers
+JsonSerialization [4.6.1] - Controlled by category Serializers
+XmlSerialization [4.6.1] - Controlled by category Serializers
+MsmqTransport [4.6.1] - Disabled
+Gateway [4.6.1] - Disabled
+TimeoutManager [4.6.1] - Enabled
+Sagas [4.6.1] - Enabled
+SecondLevelRetries [4.6.1] - Enabled
+StorageDrivenPublisher [4.6.1] - Disabled
+MessageDrivenSubscriptions [4.6.1] - Disabled
+RabbitMqTransport [1.1.3] - Enabled
+
+2015-09-16 21:24:57,827 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Feature categories: 
+   - Serializers
+       * BinarySerialization - Disabled
+       * BsonSerialization - Disabled
+       * JsonSerialization - Disabled
+       * XmlSerialization - Enabled
+
+2015-09-16 21:24:57,858 [1] INFO  NServiceBus.Unicast.Config.FinalizeUnicastBusConfiguration [(null)] <(null)> - Number of messages found: 4
+2015-09-16 21:24:57,872 [1] INFO  NServiceBus.Config.InfrastructureServices [(null)] <(null)> - Infrastructure service NServiceBus.AutomaticSubscriptions.IAutoSubscriptionStrategy was found in the container and will be used instead of the default
+2015-09-16 21:24:57,884 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.Config.IFinalizeConfiguration completed in 0.28 s
+2015-09-16 21:24:58,854 [1] INFO  NServiceBus.ConfigureRavenPersistence [(null)] <(null)> - Connection to RavenDB at http://localhost:8080 verified. Detected version: Product version: 2.0.3 / 5a4b7ea, Build version: 2375
+2015-09-16 21:24:59,007 [1] INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager [(null)] <(null)> - Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-09-16 21:24:59,187 [1] INFO  NServiceBus.Installation.PerformanceMonitorUsersInstaller [(null)] <(null)> - Skipped adding user 'DS\rapolul' to group 'Performance Monitor Users' because the user is already in group.
+2015-09-16 21:24:59,235 [1] INFO  NServiceBus.Persistence.Raven.RavenUserInstaller [(null)] <(null)> - Adding user 'DS\rapolul' to raven. Instance:'http://localhost:8080', Database:'Dis.Endpoint'.
+2015-09-16 21:24:59,474 [9] INFO  NServiceBus.Satellites.SatelliteLauncher [(null)] <(null)> - Started 3/3 NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=4.6.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-09-16 21:24:59,535 [11] INFO  NServiceBus.Satellites.SatelliteLauncher [(null)] <(null)> - Started 2/3 NServiceBus.Timeout.Hosting.Windows.TimeoutDispatcherProcessor, NServiceBus.Core, Version=4.6.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-09-16 21:24:59,550 [1] INFO  NServiceBus.Satellites.SatelliteLauncher [(null)] <(null)> - Started 1/3 NServiceBus.Timeout.Hosting.Windows.TimeoutMessageProcessor, NServiceBus.Core, Version=4.6.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-09-16 21:24:59,554 [17] INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager [(null)] <(null)> - Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-09-16 21:25:04,567 [17] INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager [(null)] <(null)> - Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-09-16 21:30:49,776 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.IWantToRunBeforeConfiguration completed in 0.14 s
+2015-09-16 21:30:49,917 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.Config.INeedInitialization completed in 0.00 s
+2015-09-16 21:30:50,333 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Expires on 12/31/9999 00:00:00
+2015-09-16 21:30:50,401 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.INeedInitialization completed in 0.48 s
+2015-09-16 21:30:52,113 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.IWantToRunBeforeConfigurationIsFinalized completed in 1.71 s
+2015-09-16 21:30:52,194 [1] INFO  NServiceBus.Features.Sagas [(null)] <(null)> - The saga feature was enabled but no saga implementations could be found. No need to enable the configured saga persister
+2015-09-16 21:30:52,314 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Features: 
+Audit [4.6.1] - Enabled
+AutoSubscribe [4.6.1] - Enabled
+BinarySerialization [4.6.1] - Controlled by category Serializers
+BsonSerialization [4.6.1] - Controlled by category Serializers
+JsonSerialization [4.6.1] - Controlled by category Serializers
+XmlSerialization [4.6.1] - Controlled by category Serializers
+MsmqTransport [4.6.1] - Disabled
+Gateway [4.6.1] - Disabled
+TimeoutManager [4.6.1] - Enabled
+Sagas [4.6.1] - Enabled
+SecondLevelRetries [4.6.1] - Enabled
+StorageDrivenPublisher [4.6.1] - Disabled
+MessageDrivenSubscriptions [4.6.1] - Disabled
+RabbitMqTransport [1.1.3] - Enabled
+
+2015-09-16 21:30:52,332 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Feature categories: 
+   - Serializers
+       * BinarySerialization - Disabled
+       * BsonSerialization - Disabled
+       * JsonSerialization - Disabled
+       * XmlSerialization - Enabled
+
+2015-09-16 21:30:52,361 [1] INFO  NServiceBus.Unicast.Config.FinalizeUnicastBusConfiguration [(null)] <(null)> - Number of messages found: 4
+2015-09-16 21:30:52,373 [1] INFO  NServiceBus.Config.InfrastructureServices [(null)] <(null)> - Infrastructure service NServiceBus.AutomaticSubscriptions.IAutoSubscriptionStrategy was found in the container and will be used instead of the default
+2015-09-16 21:30:52,385 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.Config.IFinalizeConfiguration completed in 0.26 s
+2015-09-16 21:30:53,283 [1] INFO  NServiceBus.ConfigureRavenPersistence [(null)] <(null)> - Connection to RavenDB at http://localhost:8080 verified. Detected version: Product version: 2.0.3 / 5a4b7ea, Build version: 2375
+2015-09-16 21:30:53,419 [1] INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager [(null)] <(null)> - Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-09-16 21:30:53,584 [1] INFO  NServiceBus.Installation.PerformanceMonitorUsersInstaller [(null)] <(null)> - Skipped adding user 'DS\rapolul' to group 'Performance Monitor Users' because the user is already in group.
+2015-09-16 21:30:53,597 [1] INFO  NServiceBus.Persistence.Raven.RavenUserInstaller [(null)] <(null)> - Adding user 'DS\rapolul' to raven. Instance:'http://localhost:8080', Database:'Dis.Endpoint'.
+2015-09-16 21:30:53,847 [17] INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager [(null)] <(null)> - Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-09-16 21:30:53,864 [12] INFO  NServiceBus.Satellites.SatelliteLauncher [(null)] <(null)> - Started 3/3 NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=4.6.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-09-16 21:30:53,881 [1] INFO  NServiceBus.Satellites.SatelliteLauncher [(null)] <(null)> - Started 1/3 NServiceBus.Timeout.Hosting.Windows.TimeoutMessageProcessor, NServiceBus.Core, Version=4.6.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-09-16 21:30:53,882 [13] INFO  NServiceBus.Satellites.SatelliteLauncher [(null)] <(null)> - Started 2/3 NServiceBus.Timeout.Hosting.Windows.TimeoutDispatcherProcessor, NServiceBus.Core, Version=4.6.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-09-16 21:30:59,814 [17] INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager [(null)] <(null)> - Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-09-16 21:38:27,594 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.IWantToRunBeforeConfiguration completed in 0.13 s
+2015-09-16 21:38:27,730 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.Config.INeedInitialization completed in 0.00 s
+2015-09-16 21:38:28,142 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Expires on 12/31/9999 00:00:00
+2015-09-16 21:38:28,217 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.INeedInitialization completed in 0.48 s
+2015-09-16 21:38:29,942 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.IWantToRunBeforeConfigurationIsFinalized completed in 1.72 s
+2015-09-16 21:38:30,010 [1] INFO  NServiceBus.Features.Sagas [(null)] <(null)> - The saga feature was enabled but no saga implementations could be found. No need to enable the configured saga persister
+2015-09-16 21:38:30,134 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Features: 
+Audit [4.6.1] - Enabled
+AutoSubscribe [4.6.1] - Enabled
+BinarySerialization [4.6.1] - Controlled by category Serializers
+BsonSerialization [4.6.1] - Controlled by category Serializers
+JsonSerialization [4.6.1] - Controlled by category Serializers
+XmlSerialization [4.6.1] - Controlled by category Serializers
+MsmqTransport [4.6.1] - Disabled
+Gateway [4.6.1] - Disabled
+TimeoutManager [4.6.1] - Enabled
+Sagas [4.6.1] - Enabled
+SecondLevelRetries [4.6.1] - Enabled
+StorageDrivenPublisher [4.6.1] - Disabled
+MessageDrivenSubscriptions [4.6.1] - Disabled
+RabbitMqTransport [1.1.3] - Enabled
+
+2015-09-16 21:38:30,151 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Feature categories: 
+   - Serializers
+       * BinarySerialization - Disabled
+       * BsonSerialization - Disabled
+       * JsonSerialization - Disabled
+       * XmlSerialization - Enabled
+
+2015-09-16 21:38:30,181 [1] INFO  NServiceBus.Unicast.Config.FinalizeUnicastBusConfiguration [(null)] <(null)> - Number of messages found: 4
+2015-09-16 21:38:30,196 [1] INFO  NServiceBus.Config.InfrastructureServices [(null)] <(null)> - Infrastructure service NServiceBus.AutomaticSubscriptions.IAutoSubscriptionStrategy was found in the container and will be used instead of the default
+2015-09-16 21:38:30,208 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.Config.IFinalizeConfiguration completed in 0.26 s
+2015-09-16 21:38:31,092 [1] INFO  NServiceBus.ConfigureRavenPersistence [(null)] <(null)> - Connection to RavenDB at http://localhost:8080 verified. Detected version: Product version: 2.0.3 / 5a4b7ea, Build version: 2375
+2015-09-16 21:38:31,234 [1] INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager [(null)] <(null)> - Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-09-16 21:38:31,389 [1] INFO  NServiceBus.Installation.PerformanceMonitorUsersInstaller [(null)] <(null)> - Skipped adding user 'DS\rapolul' to group 'Performance Monitor Users' because the user is already in group.
+2015-09-16 21:38:31,398 [1] INFO  NServiceBus.Persistence.Raven.RavenUserInstaller [(null)] <(null)> - Adding user 'DS\rapolul' to raven. Instance:'http://localhost:8080', Database:'Dis.Endpoint'.
+2015-09-16 21:38:31,629 [17] INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager [(null)] <(null)> - Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-09-16 21:38:31,657 [1] INFO  NServiceBus.Satellites.SatelliteLauncher [(null)] <(null)> - Started 1/3 NServiceBus.Timeout.Hosting.Windows.TimeoutMessageProcessor, NServiceBus.Core, Version=4.6.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-09-16 21:38:31,679 [9] INFO  NServiceBus.Satellites.SatelliteLauncher [(null)] <(null)> - Started 3/3 NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=4.6.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-09-16 21:38:31,684 [10] INFO  NServiceBus.Satellites.SatelliteLauncher [(null)] <(null)> - Started 2/3 NServiceBus.Timeout.Hosting.Windows.TimeoutDispatcherProcessor, NServiceBus.Core, Version=4.6.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-09-16 21:38:39,221 [17] INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager [(null)] <(null)> - Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-09-16 21:52:10,728 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.IWantToRunBeforeConfiguration completed in 0.13 s
+2015-09-16 21:52:10,861 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.Config.INeedInitialization completed in 0.00 s
+2015-09-16 21:52:11,354 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Expires on 12/31/9999 00:00:00
+2015-09-16 21:52:11,425 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.INeedInitialization completed in 0.55 s
+2015-09-16 21:52:13,030 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.IWantToRunBeforeConfigurationIsFinalized completed in 1.60 s
+2015-09-16 21:52:13,103 [1] INFO  NServiceBus.Features.Sagas [(null)] <(null)> - The saga feature was enabled but no saga implementations could be found. No need to enable the configured saga persister
+2015-09-16 21:52:13,216 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Features: 
+Audit [4.6.1] - Enabled
+AutoSubscribe [4.6.1] - Enabled
+BinarySerialization [4.6.1] - Controlled by category Serializers
+BsonSerialization [4.6.1] - Controlled by category Serializers
+JsonSerialization [4.6.1] - Controlled by category Serializers
+XmlSerialization [4.6.1] - Controlled by category Serializers
+MsmqTransport [4.6.1] - Disabled
+Gateway [4.6.1] - Disabled
+TimeoutManager [4.6.1] - Enabled
+Sagas [4.6.1] - Enabled
+SecondLevelRetries [4.6.1] - Enabled
+StorageDrivenPublisher [4.6.1] - Disabled
+MessageDrivenSubscriptions [4.6.1] - Disabled
+RabbitMqTransport [1.1.3] - Enabled
+
+2015-09-16 21:52:13,231 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Feature categories: 
+   - Serializers
+       * BinarySerialization - Disabled
+       * BsonSerialization - Disabled
+       * JsonSerialization - Disabled
+       * XmlSerialization - Enabled
+
+2015-09-16 21:52:13,255 [1] INFO  NServiceBus.Unicast.Config.FinalizeUnicastBusConfiguration [(null)] <(null)> - Number of messages found: 4
+2015-09-16 21:52:13,269 [1] INFO  NServiceBus.Config.InfrastructureServices [(null)] <(null)> - Infrastructure service NServiceBus.AutomaticSubscriptions.IAutoSubscriptionStrategy was found in the container and will be used instead of the default
+2015-09-16 21:52:13,279 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.Config.IFinalizeConfiguration completed in 0.24 s
+2015-09-16 21:52:14,221 [1] INFO  NServiceBus.ConfigureRavenPersistence [(null)] <(null)> - Connection to RavenDB at http://localhost:8080 verified. Detected version: Product version: 2.0.3 / 5a4b7ea, Build version: 2375
+2015-09-16 21:52:14,375 [1] INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager [(null)] <(null)> - Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-09-16 21:52:14,542 [1] INFO  NServiceBus.Installation.PerformanceMonitorUsersInstaller [(null)] <(null)> - Skipped adding user 'DS\rapolul' to group 'Performance Monitor Users' because the user is already in group.
+2015-09-16 21:52:14,554 [1] INFO  NServiceBus.Persistence.Raven.RavenUserInstaller [(null)] <(null)> - Adding user 'DS\rapolul' to raven. Instance:'http://localhost:8080', Database:'Dis.Endpoint'.
+2015-09-16 21:52:14,786 [17] INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager [(null)] <(null)> - Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-09-16 21:52:14,797 [13] INFO  NServiceBus.Satellites.SatelliteLauncher [(null)] <(null)> - Started 3/3 NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=4.6.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-09-16 21:52:14,822 [1] INFO  NServiceBus.Satellites.SatelliteLauncher [(null)] <(null)> - Started 1/3 NServiceBus.Timeout.Hosting.Windows.TimeoutMessageProcessor, NServiceBus.Core, Version=4.6.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-09-16 21:52:14,827 [11] INFO  NServiceBus.Satellites.SatelliteLauncher [(null)] <(null)> - Started 2/3 NServiceBus.Timeout.Hosting.Windows.TimeoutDispatcherProcessor, NServiceBus.Core, Version=4.6.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-09-16 21:54:00,191 [AMQP Connection amqp-0-9://localhost:5672] INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager [(null)] <(null)> - Disconnected from RabbitMQ Broker, reason: AMQP close-reason, initiated by Library, code=541, text="Unexpected Exception", classId=0, methodId=0, cause=System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.Impl.Frame.ReadFrom(NetworkBinaryReader reader)
+   at RabbitMQ.Client.Impl.SocketFrameHandler_0_9.ReadFrame()
+   at RabbitMQ.Client.Impl.ConnectionBase.MainLoopIteration()
+   at RabbitMQ.Client.Impl.ConnectionBase.MainLoop() , going to reconnect
+2015-09-16 21:54:00,192 [AMQP Heartbeat Outbound for Connection amqp-0-9://localhost:5672] INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager [(null)] <(null)> - Disconnected from RabbitMQ Broker, reason: AMQP close-reason, initiated by Library, code=0, text="End of stream", classId=0, methodId=0, cause=System.IO.IOException: Unable to write data to the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at System.IO.BufferedStream.FlushWrite()
+   at RabbitMQ.Client.Impl.SocketFrameHandler_0_9.WriteFrame(Frame frame)
+   at RabbitMQ.Client.Impl.ConnectionBase.WriteFrame(Frame f)
+   at RabbitMQ.Client.Impl.ConnectionBase.HeartbeatWriteLoop() , going to reconnect
+2015-09-16 21:54:00,357 [AMQP Connection amqp-0-9://localhost:5672] INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager [(null)] <(null)> - Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-09-16 21:54:00,379 [AMQP Heartbeat Outbound for Connection amqp-0-9://localhost:5672] INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager [(null)] <(null)> - Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-09-16 21:54:47,405 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.IWantToRunBeforeConfiguration completed in 0.12 s
+2015-09-16 21:54:47,525 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.Config.INeedInitialization completed in 0.00 s
+2015-09-16 21:54:47,793 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Expires on 12/31/9999 00:00:00
+2015-09-16 21:54:47,864 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.INeedInitialization completed in 0.33 s
+2015-09-16 21:54:49,380 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.IWantToRunBeforeConfigurationIsFinalized completed in 1.51 s
+2015-09-16 21:54:49,462 [1] INFO  NServiceBus.Features.Sagas [(null)] <(null)> - The saga feature was enabled but no saga implementations could be found. No need to enable the configured saga persister
+2015-09-16 21:54:49,602 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Features: 
+Audit [4.6.1] - Enabled
+AutoSubscribe [4.6.1] - Enabled
+BinarySerialization [4.6.1] - Controlled by category Serializers
+BsonSerialization [4.6.1] - Controlled by category Serializers
+JsonSerialization [4.6.1] - Controlled by category Serializers
+XmlSerialization [4.6.1] - Controlled by category Serializers
+MsmqTransport [4.6.1] - Disabled
+Gateway [4.6.1] - Disabled
+TimeoutManager [4.6.1] - Enabled
+Sagas [4.6.1] - Enabled
+SecondLevelRetries [4.6.1] - Enabled
+StorageDrivenPublisher [4.6.1] - Disabled
+MessageDrivenSubscriptions [4.6.1] - Disabled
+RabbitMqTransport [1.1.3] - Enabled
+
+2015-09-16 21:54:49,619 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Feature categories: 
+   - Serializers
+       * BinarySerialization - Disabled
+       * BsonSerialization - Disabled
+       * JsonSerialization - Disabled
+       * XmlSerialization - Enabled
+
+2015-09-16 21:54:49,646 [1] INFO  NServiceBus.Unicast.Config.FinalizeUnicastBusConfiguration [(null)] <(null)> - Number of messages found: 4
+2015-09-16 21:54:49,659 [1] INFO  NServiceBus.Config.InfrastructureServices [(null)] <(null)> - Infrastructure service NServiceBus.AutomaticSubscriptions.IAutoSubscriptionStrategy was found in the container and will be used instead of the default
+2015-09-16 21:54:49,668 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.Config.IFinalizeConfiguration completed in 0.28 s
+2015-09-16 21:54:50,797 [1] INFO  NServiceBus.ConfigureRavenPersistence [(null)] <(null)> - Connection to RavenDB at http://localhost:8080 verified. Detected version: Product version: 2.0.3 / 5a4b7ea, Build version: 2375
+2015-09-16 21:54:50,961 [1] INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager [(null)] <(null)> - Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-09-16 21:54:51,120 [1] INFO  NServiceBus.Installation.PerformanceMonitorUsersInstaller [(null)] <(null)> - Skipped adding user 'DS\rapolul' to group 'Performance Monitor Users' because the user is already in group.
+2015-09-16 21:54:51,129 [1] INFO  NServiceBus.Persistence.Raven.RavenUserInstaller [(null)] <(null)> - Adding user 'DS\rapolul' to raven. Instance:'http://localhost:8080', Database:'Dis.Endpoint'.
+2015-09-16 21:54:51,395 [16] INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager [(null)] <(null)> - Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-09-16 21:54:51,412 [9] INFO  NServiceBus.Satellites.SatelliteLauncher [(null)] <(null)> - Started 3/3 NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=4.6.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-09-16 21:54:51,422 [12] INFO  NServiceBus.Satellites.SatelliteLauncher [(null)] <(null)> - Started 2/3 NServiceBus.Timeout.Hosting.Windows.TimeoutDispatcherProcessor, NServiceBus.Core, Version=4.6.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-09-16 21:54:51,437 [1] INFO  NServiceBus.Satellites.SatelliteLauncher [(null)] <(null)> - Started 1/3 NServiceBus.Timeout.Hosting.Windows.TimeoutMessageProcessor, NServiceBus.Core, Version=4.6.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-09-16 21:54:52,053 [16] INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager [(null)] <(null)> - Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-09-16 22:08:32,273 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.IWantToRunBeforeConfiguration completed in 0.18 s
+2015-09-16 22:08:32,442 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.Config.INeedInitialization completed in 0.00 s
+2015-09-16 22:08:32,793 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Expires on 12/31/9999 00:00:00
+2015-09-16 22:08:32,879 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.INeedInitialization completed in 0.43 s
+2015-09-16 22:08:34,636 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.IWantToRunBeforeConfigurationIsFinalized completed in 1.75 s
+2015-09-16 22:08:34,734 [1] INFO  NServiceBus.Features.Sagas [(null)] <(null)> - The saga feature was enabled but no saga implementations could be found. No need to enable the configured saga persister
+2015-09-16 22:08:34,903 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Features: 
+Audit [4.6.1] - Enabled
+AutoSubscribe [4.6.1] - Enabled
+BinarySerialization [4.6.1] - Controlled by category Serializers
+BsonSerialization [4.6.1] - Controlled by category Serializers
+JsonSerialization [4.6.1] - Controlled by category Serializers
+XmlSerialization [4.6.1] - Controlled by category Serializers
+MsmqTransport [4.6.1] - Disabled
+Gateway [4.6.1] - Disabled
+TimeoutManager [4.6.1] - Enabled
+Sagas [4.6.1] - Enabled
+SecondLevelRetries [4.6.1] - Enabled
+StorageDrivenPublisher [4.6.1] - Disabled
+MessageDrivenSubscriptions [4.6.1] - Disabled
+RabbitMqTransport [1.1.3] - Enabled
+
+2015-09-16 22:08:34,927 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Feature categories: 
+   - Serializers
+       * BinarySerialization - Disabled
+       * BsonSerialization - Disabled
+       * JsonSerialization - Disabled
+       * XmlSerialization - Enabled
+
+2015-09-16 22:08:34,961 [1] INFO  NServiceBus.Unicast.Config.FinalizeUnicastBusConfiguration [(null)] <(null)> - Number of messages found: 4
+2015-09-16 22:08:34,979 [1] INFO  NServiceBus.Config.InfrastructureServices [(null)] <(null)> - Infrastructure service NServiceBus.AutomaticSubscriptions.IAutoSubscriptionStrategy was found in the container and will be used instead of the default
+2015-09-16 22:08:34,998 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.Config.IFinalizeConfiguration completed in 0.35 s
+2015-09-16 22:08:36,260 [1] INFO  NServiceBus.ConfigureRavenPersistence [(null)] <(null)> - Connection to RavenDB at http://localhost:8080 verified. Detected version: Product version: 2.0.3 / 5a4b7ea, Build version: 2375
+2015-09-16 22:08:36,478 [1] INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager [(null)] <(null)> - Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-09-16 22:08:36,729 [1] INFO  NServiceBus.Installation.PerformanceMonitorUsersInstaller [(null)] <(null)> - Skipped adding user 'DS\rapolul' to group 'Performance Monitor Users' because the user is already in group.
+2015-09-16 22:08:36,742 [1] INFO  NServiceBus.Persistence.Raven.RavenUserInstaller [(null)] <(null)> - Adding user 'DS\rapolul' to raven. Instance:'http://localhost:8080', Database:'Dis.Endpoint'.
+2015-09-16 22:08:37,112 [10] INFO  NServiceBus.Satellites.SatelliteLauncher [(null)] <(null)> - Started 3/3 NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=4.6.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-09-16 22:08:37,157 [16] INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager [(null)] <(null)> - Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-09-16 22:08:37,169 [8] INFO  NServiceBus.Satellites.SatelliteLauncher [(null)] <(null)> - Started 2/3 NServiceBus.Timeout.Hosting.Windows.TimeoutDispatcherProcessor, NServiceBus.Core, Version=4.6.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-09-16 22:08:37,200 [1] INFO  NServiceBus.Satellites.SatelliteLauncher [(null)] <(null)> - Started 1/3 NServiceBus.Timeout.Hosting.Windows.TimeoutMessageProcessor, NServiceBus.Core, Version=4.6.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-09-16 22:08:42,409 [16] INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager [(null)] <(null)> - Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-09-16 22:44:16,468 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.IWantToRunBeforeConfiguration completed in 0.19 s
+2015-09-16 22:44:16,674 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.Config.INeedInitialization completed in 0.00 s
+2015-09-16 22:44:17,016 [1] INFO  NServiceBus.Licensing.LicenseManager [(null)] <(null)> - Expires on 12/31/9999 00:00:00
+2015-09-16 22:44:17,105 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.INeedInitialization completed in 0.42 s
+2015-09-16 22:44:18,857 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.IWantToRunBeforeConfigurationIsFinalized completed in 1.74 s
+2015-09-16 22:44:18,947 [1] INFO  NServiceBus.Features.Sagas [(null)] <(null)> - The saga feature was enabled but no saga implementations could be found. No need to enable the configured saga persister
+2015-09-16 22:44:19,113 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Features: 
+Audit [4.6.1] - Enabled
+AutoSubscribe [4.6.1] - Enabled
+BinarySerialization [4.6.1] - Controlled by category Serializers
+BsonSerialization [4.6.1] - Controlled by category Serializers
+JsonSerialization [4.6.1] - Controlled by category Serializers
+XmlSerialization [4.6.1] - Controlled by category Serializers
+MsmqTransport [4.6.1] - Disabled
+Gateway [4.6.1] - Disabled
+TimeoutManager [4.6.1] - Enabled
+Sagas [4.6.1] - Enabled
+SecondLevelRetries [4.6.1] - Enabled
+StorageDrivenPublisher [4.6.1] - Disabled
+MessageDrivenSubscriptions [4.6.1] - Disabled
+RabbitMqTransport [1.1.3] - Enabled
+
+2015-09-16 22:44:19,135 [1] INFO  NServiceBus.Features.FeatureInitializer [(null)] <(null)> - Feature categories: 
+   - Serializers
+       * BinarySerialization - Disabled
+       * BsonSerialization - Disabled
+       * JsonSerialization - Disabled
+       * XmlSerialization - Enabled
+
+2015-09-16 22:44:19,172 [1] INFO  NServiceBus.Unicast.Config.FinalizeUnicastBusConfiguration [(null)] <(null)> - Number of messages found: 4
+2015-09-16 22:44:19,188 [1] INFO  NServiceBus.Config.InfrastructureServices [(null)] <(null)> - Infrastructure service NServiceBus.AutomaticSubscriptions.IAutoSubscriptionStrategy was found in the container and will be used instead of the default
+2015-09-16 22:44:19,205 [1] INFO  NServiceBus.Configure [(null)] <(null)> - Invocation of NServiceBus.Config.IFinalizeConfiguration completed in 0.34 s
+2015-09-16 22:44:20,605 [1] INFO  NServiceBus.ConfigureRavenPersistence [(null)] <(null)> - Connection to RavenDB at http://localhost:8080 verified. Detected version: Product version: 2.0.3 / 5a4b7ea, Build version: 2375
+2015-09-16 22:44:20,826 [1] INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager [(null)] <(null)> - Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-09-16 22:44:21,096 [1] INFO  NServiceBus.Installation.PerformanceMonitorUsersInstaller [(null)] <(null)> - Skipped adding user 'DS\rapolul' to group 'Performance Monitor Users' because the user is already in group.
+2015-09-16 22:44:21,109 [1] INFO  NServiceBus.Persistence.Raven.RavenUserInstaller [(null)] <(null)> - Adding user 'DS\rapolul' to raven. Instance:'http://localhost:8080', Database:'Dis.Endpoint'.
+2015-09-16 22:44:21,535 [9] INFO  NServiceBus.Satellites.SatelliteLauncher [(null)] <(null)> - Started 3/3 NServiceBus.SecondLevelRetries.SecondLevelRetriesProcessor, NServiceBus.Core, Version=4.6.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-09-16 22:44:21,606 [1] INFO  NServiceBus.Satellites.SatelliteLauncher [(null)] <(null)> - Started 1/3 NServiceBus.Timeout.Hosting.Windows.TimeoutMessageProcessor, NServiceBus.Core, Version=4.6.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-09-16 22:44:21,607 [8] INFO  NServiceBus.Satellites.SatelliteLauncher [(null)] <(null)> - Started 2/3 NServiceBus.Timeout.Hosting.Windows.TimeoutDispatcherProcessor, NServiceBus.Core, Version=4.6.0.0, Culture=neutral, PublicKeyToken=9fc386479f8a226c satellite
+2015-09-16 22:44:21,651 [16] INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager [(null)] <(null)> - Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'
+2015-09-16 22:44:33,781 [16] INFO  NServiceBus.Transports.RabbitMQ.RabbitMqConnectionManager [(null)] <(null)> - Connected to RabbitMQ. Broker: 'localhost', Port: 5672, VHost: '/'

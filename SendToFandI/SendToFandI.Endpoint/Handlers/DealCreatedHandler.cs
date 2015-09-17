@@ -22,6 +22,7 @@ namespace SendToFandI.Endpoint.Handlers
             Console.WriteLine("SendToFandI Endpoint : Received Deal from Dis and Deal Number is: {0}", message.DealNumber);
             Console.WriteLine("");
 
+            #region PublishEvent
 
             var dealCompleted = new DealCompleted()
             {
@@ -31,6 +32,8 @@ namespace SendToFandI.Endpoint.Handlers
 
             Bus.Publish(dealCompleted);
             Console.WriteLine("SendToFandI Endpoint : Published a Deal completed event: {0}", message.DealNumber);
+
+            #endregion
         }
     }
 }
