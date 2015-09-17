@@ -1,0 +1,4 @@
+C:\MyRepo\SendToFandI\SendToFandI.Contracts\bin\Debug\SendToFandI.Contracts.dll
+C:\MyRepo\SendToFandI\SendToFandI.Contracts\bin\Debug\SendToFandI.Contracts.pdb
+C:\MyRepo\SendToFandI\SendToFandI.Contracts\obj\Debug\SendToFandI.Contracts.dll
+C:\MyRepo\SendToFandI\SendToFandI.Contracts\obj\Debug\SendToFandI.Contracts.pdb
