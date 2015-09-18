@@ -18,15 +18,15 @@ namespace SendToFandI.Endpoint.Handlers
         public void Handle(SendToFICommand message)
         {
             var accessToken = Bus.GetMessageHeader(message, "Access-Token");
-            if (accessToken == "quoting")
+            if (accessToken != "quoting")
             {
                 Console.WriteLine("Authentication failed");
                 Console.WriteLine("");
                 Bus.DoNotContinueDispatchingCurrentMessageToHandlers();
                 return;
             }
-            Console.WriteLine("");
-           // Console.WriteLine("User Authenticated");
+           // Console.WriteLine("");
+            Console.WriteLine("User Authenticated");
             Console.WriteLine("");
         }
     }

@@ -31,7 +31,7 @@ namespace Dis.Endpoint.Handlers
             };
 
             Bus.Reply(dealCreated);
-            Console.WriteLine(Bus.CurrentMessageContext.ReplyToAddress);
+        //    Console.WriteLine(Bus.CurrentMessageContext.ReplyToAddress);
             Console.WriteLine("");
 
             Console.WriteLine("Dis Endpoint:  Deal has been processed and sent back deal number : {0}", dealCreated.DealNumber);

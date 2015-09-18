@@ -11,7 +11,7 @@ namespace Quoting.Api.Mutator
     {
         public void MutateOutgoing(object[] messages, TransportMessage transportMessage)
         {
-            Headers.SetMessageHeader(transportMessage, "Access-Token", "quoting");
+            transportMessage.Headers["Access-Token"] = "quoting";
         }
 
         public void Init()
